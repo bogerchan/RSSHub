@@ -866,4 +866,7 @@ router.get('/anigamer/anime/:sn', require('./routes/anigamer/anime'));
 // Apkpure
 router.get('/apkpure/versions/:region/:pkg', require('./routes/apkpure/versions'));
 
+// 国家地理中文网
+router.get('/ngchina', require('./routes/ngchina/ngchina'));
+
 module.exports = router;
